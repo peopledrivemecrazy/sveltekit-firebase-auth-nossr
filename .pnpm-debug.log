@@ -1,0 +1,69 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "~TODO~",
+      "version": "0.0.1",
+      "scripts": {
+        "dev": "svelte-kit dev",
+        "build": "svelte-kit build",
+        "preview": "svelte-kit preview"
+      },
+      "devDependencies": {
+        "@sveltejs/kit": "next",
+        "svelte": "^3.34.0"
+      },
+      "type": "module"
+    },
+    "prefix": "/Users/shrijikondan/Desktop/OMI/experiments/kit-firebase-minimal"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/Users/shrijikondan/.pnpm-store/v3",
+    "virtualStoreDir": "/Users/shrijikondan/Desktop/OMI/experiments/kit-firebase-minimal/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/Users/shrijikondan/Desktop/OMI/experiments/kit-firebase-minimal",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/svelte/3.38.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "svelte",
+      "rawSpec": "^3.34.0"
+    }
+  },
+  "5 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte/3.38.2",
+    "requester": "/Users/shrijikondan/Desktop/OMI/experiments/kit-firebase-minimal",
+    "status": "resolved"
+  },
+  "6 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/svelte/3.38.2",
+    "requester": "/Users/shrijikondan/Desktop/OMI/experiments/kit-firebase-minimal",
+    "status": "found_in_store"
+  },
+  "7 error pnpm": {
+    "code": "ERR_PNPM_FETCH_404",
+    "hint": "firebase9.0.0-beta.2 is not in the npm registry, or you have no permission to fetch it. Did you mean firebase?\n\nAn authorization header was used: Bearer bf68[hidden]",
+    "request": {
+      "authHeaderValue": "Bearer bf68388f-a6b9-47d1-8b08-d57dd4f0cef0",
+      "url": "https://registry.npmjs.org/firebase9.0.0-beta.2"
+    },
+    "response": {
+      "size": 0,
+      "timeout": 60000
+    },
+    "pkgName": "firebase9.0.0-beta.2",
+    "pkgsStack": [],
+    "err": {
+      "name": "Error",
+      "message": "GET https://registry.npmjs.org/firebase9.0.0-beta.2: Not Found - 404",
+      "code": "ERR_PNPM_FETCH_404",
+      "stack": "Error: GET https://registry.npmjs.org/firebase9.0.0-beta.2: Not Found - 404\n    at RetryOperation._fn (/Users/shrijikondan/.nvm/versions/node/v12.17.0/pnpm-global/5/node_modules/.pnpm/pnpm@6.2.5/node_modules/pnpm/dist/pnpm.cjs:62235:16)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+    }
+  }
+}
